@@ -1,24 +1,23 @@
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-});
-
+$(document).ready(function() {
+    $('.sidenav').sidenav();
+})
 
 function hideAllPages() {
-  $("#loginPage,#formPage,#mapPage").hide();
+    $("#loginPage,#formPage,#mapPage").hide();
 }
 
 function showLoginPage() {
-  hideAllPages();
-  $("#loginPage").show();
+    hideAllPages();
+    $("#loginPage").show();
 }
 
 function showFormPage() {
-  hideAllPages();
-  $("#formPage").show();
-  listForm();
+    hideAllPages();
+    $("#formPage").show();
+    listForm();
 }
 
 function showMapPage() {
-  hideAllPages();
-  $("#mapPage").show();
+    hideAllPages();
+    $("#mapPage").show();
 }
