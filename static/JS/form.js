@@ -31,5 +31,5 @@ function listForm() {
                 item.message;
         }
         document.getElementById("listFormDiv").innerHTML = list + "<hr>";
-    })
+    });
 }
