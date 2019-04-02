@@ -32,4 +32,5 @@ function listForm() {
         }
         document.getElementById("listFormDiv").innerHTML = list + "<hr>";
     });
+
 }

@@ -11,6 +11,7 @@ function showLoginPage() {
     $("#loginPage").show();
 }
 
+
 function showFormPage() {
     hideAllPages();
     $("#formPage").show();
