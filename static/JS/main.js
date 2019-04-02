@@ -2,6 +2,7 @@ $(document).ready(function() {
     $('.sidenav').sidenav();
 })
 
+
 function hideAllPages() {
     $("#loginPage,#formPage,#mapPage").hide();
 }
